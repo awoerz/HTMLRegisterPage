@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+header {
+  background-color: crimson;
+  height: 70px;
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 0 15px;
+  background-color: #0080ff;
+}
